@@ -1,6 +1,6 @@
 #import "./globals.typ": *
 
-#show: university-theme.with(
+#show: simple-theme.with(
   aspect-ratio: "16-9",
   config-info(
     title: [Test],
@@ -12,10 +12,13 @@
   ),
 )
 
-#include "content.typ"
+= Title
 
-=== Slide 15 This is interesting
+== Section2
+#include "./content.typ"
 
-
+=== Thing
 #include "./content2.typ"
+
+= Next
 #include "./content3.typ"
