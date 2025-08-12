@@ -6,14 +6,35 @@
 
 \begin{frame}
 \frametitle{Why do we care?}
-Being able to separate out nuclear fission products allows for characterization of these species that allows for forensic information to be obtained. This can be done in several ways, but the only way that I can think of right now is
-that the concentrations of the nuclear fission products are statistically related to the source nuclear material that is used. Being able to identify the source material allows for better bracktracking to the source. Other reasons for
-separating out radioactive products include removal from patients within the medical field. If these radioactive species are not removed from the patient, they can be deposited into bones as a calcium replacement, causing further
-pysiological compilications. 
+Being able to separate out nuclear fission products allows for characterization of these species
+that allows for forensic information to be obtained. This can be done in several ways, but the only
+way that I can think of right now is that the concentrations of the nuclear fission products are
+statistically related to the source nuclear material that is used. Being able to identify the source
+material allows for better bracktracking to the source. Other reasons for separating out radioactive
+products include removal from patients within the medical field. If these radioactive species are
+not removed from the patient, they can be deposited into bones as a calcium replacement, causing
+further pysiological compilications.
 \end{frame}
 
 \begin{frame}
-Current separation procedures for nuclear fission products include resin based separations, and others that are being used within the medical field. 
+Okay so lets do a bit of backtracking. We know that we're trying to chelate nuclear fission
+products, but is there a way to know what these products are first? The answer is yes. If
+we take a look at the NucDat3 interactive isotope table, it provides data for the
+Independent Fission Yield of 3 isotopes: Uranium 235, Plutonium 239, and Californium 252.
+Why are these important? With the exception of Californium 252, these iostopes are used
+as fissile material for nuclear reactors as well as nuclear and thermonuclear warheads.
+While it is interesting to consider the pathways to obtaining these isotopes, most lead
+to the production of U235 or Pu239.
+\end{frame}
+
+\begin{frame}
+Based on this, focusing ont he fission products of U235 and Pu239 is most important when
+considering downstream effects of a nuclear event.
+\end{frame}
+
+\begin{frame}
+Current separation procedures for nuclear fission products include resin based separations, and
+others that are being used within the medical field.
 \end{frame}
 
 \begin{frame}
@@ -42,14 +63,21 @@ What are some of the nuances that you need to take into consideration when it co
 
 \begin{frame}
 \frametitle{Application: What has your work involved?}
-Starting functional group: 1,2-HOPO (1,2-Hydroxypyridinone), part of a class of hydroximates, which are commonly used by sidophores to chelate and ingest Fe from the surroundings. Basically, we copied nature a bit and are trying to make
-it better for our use case.\\
-Crystal Structure Database: Finding examples of compounds with HOPO chelating them, if they've been made then that's good! We can use them as precursors for possible new chelators.\\
-HostDesigner: using the crsytal structre data, we can generate a bunch of different compounds that replace the carbon linkers in the system, thus increasing our pool of possible new chelators.\\
+Starting functional group: 1,2-HOPO (1,2-Hydroxypyridinone), part of a class of hydroximates, which
+are commonly used by sidophores to chelate and ingest Fe from the surroundings. Basically, we copied
+nature a bit and are trying to make it better for our use case.\\
+Crystal Structure Database: Finding examples of compounds with HOPO chelating them, if they've been
+made then that's good! We can use them as precursors for possible new chelators.\\
+HostDesigner: using the crsytal structre data, we can generate a bunch of different compounds that
+replace the carbon linkers in the system, thus increasing our pool of possible new chelators.\\
 \end{frame}
 \begin{frame}
-CMI Model: this model was trained on the IUPAC Stability Constant Database and by using a SMILEs string we can generate predited LogK1 values for the systems. This essentially allows us to see the separation factors between the possible chelators.\\
-Quantum Mechanical Modeling: Based on the insights that can be gained from the CMI Model, we can both verify the results we get from the model, and optimize toward the model by identifying properties that are improving the log k values of the system.\\
+CMI Model: this model was trained on the IUPAC Stability Constant Database and by using a SMILEs
+string we can generate predited LogK1 values for the systems. This essentially allows us to see the
+separation factors between the possible chelators.\\
+Quantum Mechanical Modeling: Based on the insights that can be gained from the CMI Model, we
+can both verify the results we get from the model, and optimize toward the model by identifying
+properties that are improving the log k values of the system.\\
 \end{frame}
 
 
